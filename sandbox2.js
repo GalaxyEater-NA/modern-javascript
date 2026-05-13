@@ -55,3 +55,25 @@ console.log(name > 'crystal');
 console.log(name > 'Shaun');
 console.log(name > 'Crystal');
 
+// loose comparison (different types can still be equal)
+// console.log(age1 == 24);
+// console.log(age1 == '24');
+// console.log(age1 != 24);
+// console.log(age1 != '24');
+
+// console.log(age1 === 24);
+// console.log(age1 === '24'); // False - different types
+// console.log(age1 !== 24);
+// console.log(age1 !== '24'); // True - different types
+
+// type conversion
+let score = '100';
+// score = Number(score)
+// console.log(typeof score);
+
+// console.log(score + 1); // 1001 - string concatenation
+
+// result = Number('hello');
+// console.log(result);
+result = Boolean('0');
+console.log(result, typeof result);
