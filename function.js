@@ -84,7 +84,7 @@ let html =``;
 
 people.forEach(person =>{
     // create html template
-    html += `<li style='color: purple'>${person}</li>`;
+    html += `<li style='color: blue'>${person}</li>`;
 });
 
 console.log(html);
